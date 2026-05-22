@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "13296527"))
 API_HASH = os.environ.get("API_HASH", "6ff44fffc149a6dc599a5d2eaeb8873c")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001891742262"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001848530957"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1891736799"))
@@ -28,12 +28,12 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1891736799"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://HINDI:HINDI@cluster0.arpcr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://bacikov626:bacikov626@cluster0.koqrr3r.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "Emilia")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1003933151584"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1003872817552"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001842133632"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001850766501"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
